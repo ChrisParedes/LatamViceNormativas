@@ -487,3 +487,29 @@ document.querySelectorAll(".menu-item").forEach(item => {
         dynamicContent.innerHTML = contentData[contentId] || "<p>Contenido no encontrado.</p>";
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Manejo del colapso del sidebar
+    const sidebar = document.querySelector('.sidebar');
+    const collapseBtn = document.createElement('button');
+    collapseBtn.className = 'collapse-btn';
+    collapseBtn.innerHTML = '←';
+    document.querySelector('.logo').appendChild(collapseBtn);
+
+    collapseBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('collapsed');
+    });
+
+    // Manejo de submenús
+    const menuItems = document.querySelectorAll('.menu-item');
+    menuItems.forEach(item => {
+        const parent = item.parentElement;
+        if (parent.querySelector('ul')) {
+            item.addEventListener('click', (e) => {
+                e.preventDefault();
+                parent.classList.toggle('active');
+            });
+        }
+    });
+});
