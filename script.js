@@ -35,6 +35,7 @@ const contentData = {
             </p>
 
         </div>
+
         <div class="section">
             <h2>Reglas Generales</h2>
             <ul> 
@@ -61,9 +62,8 @@ const contentData = {
                 <li>En presencia de un EMS y Mecánico no se puede iniciar roles agresivos de ninguna índole.</li>
                 <li>No está permitido sacar las esposas desconectándose del servidor, hacer esto será motivo de sanción. </li>
             </ul>
-            <p>
-                Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>.
-            </p>
+            <p>                Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>.            </p>
+            
         </div>
     
     `,
@@ -76,47 +76,42 @@ const contentData = {
         <h2>ZONAS SEGURAS</h2>
             <p> Toda zona donde no se puede realizar ninguna clase de rol agresivo.</p>
                 <li> Ejemplo: Garajes, Negocios, Clubs, Sedes de trabajo, Gasolineras y Cajeros.</li>
-    </div>
+    
 
-    <div class="section">
+    
         <h2>METAGAMING (MG)</h2>
             <p> Adquirir información OOC y aplicarla de manera IC, ya sea de forma intencionada o por error. </p> 
                 <li>Se considera Metagaming, realizar stream sniping. </li>
     
-    <div class="section">
+    
         <h2>DEATHMATCH (DM)</h2>
              <p> Adquirir información OOC y aplicarla de manera IC, ya sea de forma intencionada o por error. </p> 
                 <li>Se produce cuando un jugador agrede o mata a otro sin rol previo y sin motivo de peso. </li>
 
-    <div class="section">
+    
         <h2>VEHICLE DEATHMATCH (VDM)</h2>
               <p> Infracción que sucede cuando usas tu vehículo como arma.  </p> 
                 <li>Si sucede involuntariamente deberás rolear la situación de forma correcta llevando a la persona herida al hospital 
                 y/o llamando a los servicios médicos </li>
 
-    <div class="section">
+    
         <h2>POWERGAMING (PG)</h2>
             <p> Es cuando se hace algo en el juego que en la vida real sería absurdo o imposible de hacer.  </p> 
                 <li>También es considerado Powergaming el uso prolongado de BunnyJump (correr y saltar repetidas veces). </li>
     
-    <div class="section">
-        <h2>POWERGAMING (PG)</h2>
-            <p> Es cuando se hace algo en el juego que en la vida real sería absurdo o imposible de hacer.  </p> 
-                <li>También es considerado Powergaming el uso prolongado de BunnyJump (correr y saltar repetidas veces). </li>
-
-    <div class="section">
+   
         <h2>PLAYER KILL (PK)</h2>
             <p> Se considera PK a la pérdida de conciencia del personaje debido a las heridas recibidas o falta de alimentación </p> 
                 <li>Los personajes pueden acordarse de todo lo sucedido mientras se encontraban conscientes, no obstante, 
                 no podrán recordar lo ocurrido mientras se encontraba inconsciente. </li>
 
-    <div class="section">
+    
         <h2>REVENGE KILL (RK)</h2>
             <p>Aunque el PK (player kill) no involucra perdida de la memoria, no se podrá tomar represalias luego de ser abatido, 
             se deberá considerar las lesiones o heridas.  </p> 
                 <li>No se puede hacer uso de información obtenida mientras se encuentra abatido. </li>        
     
-    <div class="section">
+    
         <h2>CHARACTER KILL (CK)</h2>
             <p>Es la muerte definitiva del personaje o desaparición de este. Perderá sus bienes,contactos, cuentas bancarias,
              etc. Tampoco se podrá regalar dinero ni pertenencias a otro personaje antes de realizarse un CK. </p> 
@@ -127,27 +122,39 @@ const contentData = {
                 <li>CK DELICTIVO: Un grupo criminal, te ejecuta por los motivos mencionados en su normativa. </li>
                 <li>CK MEDICO: Cuando el EMS determina el fallecimiento del personaje. (No responder la toma de pulso, 
                 disparo en la cabeza, todo dependerá de la respuesta con el /DO) debes ser muy cuidadoso </li>
-
-
-
-
+        
 
     </div>`,
 
+
+
     "robos-organizados": `
-    <h1>CHAPA TU KCHERa</h1>
+    <h1>ROBOS ORGANIZADOS A TIENDA, LICORERIA, Y MÁS</h1>
     <p class="date">Vigencia desde 08 de Enero del 2025.</p>
 
     <div class="section">
-        <h2>In Character (IC) - Dentro de juego</h2>
-        <p>
-            Se refiere a cualquier comunicación, acción o comportamiento que forma parte de la historia y el rol del personaje en el juego.
-        </p>
-    </div>
-    <div class="section">
-        <h2>Out of Character (OOC) - Fuera de Rol</h2>
-        <p>
-            Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>. </p>
+        <h2>ROBOS A TIENDA DON PEPE</h2>
+            <p> El MINIMO de (2) POLICIAS Y (1) EMS para la realización de este robo, el MAXIMO (5) POLICIAS Y (1) EMS,
+            antes de realizar dicho acto delictivo se tendrá que realizar la pregunta por ANON, y esperar
+            La CONFIRMACIÓN de la POLICIA NACIONAL DEL PERÚ, luego de ella se procede con el entorno y que empiece el robo. </p>
+            <li> ATRACADORES: (1)EL MINIMO Y (4)EL MAXIMO.</li>
+            <li>ATRACADORES: (1)EL MINIMO Y (4)EL MAXIMO.</li>
+            <li>REHENES: MAXIMO (3) REHENES REALES (PERSONAS), LOS NPC SIEMPRE CONTARÁ COMO (1), ASI SEAN MÁS. </li>
+            <p>EJEMPLO: (3) NPCS (0) REALES = SOLO VALIDO 1 REHEN | (1) NPC (1) REAL = 2 NEGOCIACIONES  </p>
+
+
+    
+        <h2>ROBOS A LICORERIAS</h2>
+        <p> El MINIMO de (2) POLICIAS Y (1) EMS para la realización de este robo, el MAXIMO (5) POLICIAS Y (1) EMS,
+            antes de realizar dicho acto delictivo se tendrá que realizar la pregunta por ANON, y esperar
+            La CONFIRMACIÓN de la POLICIA NACIONAL DEL PERÚ, luego de ella se procede con el entorno y que empiece el robo. </p>
+            <li> ATRACADORES: (1)EL MINIMO Y (4)EL MAXIMO.</li>
+            <li>ATRACADORES: (1)EL MINIMO Y (4)EL MAXIMO.</li>
+            <li>REHENES: MAXIMO (3) REHENES REALES (PERSONAS), LOS NPC SIEMPRE CONTARÁ COMO (1), ASI SEAN MÁS.  </li>
+            <p>EJEMPLO: (3) NPCS (0) REALES = SOLO VALIDO 1 REHEN | (1) NPC (1) REAL = 2 NEGOCIACIONES  </p>  
+    
+        <img src="/IMGS/robos.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
+
     </div>`,
 
     "zonas-seguras": `
@@ -179,40 +186,171 @@ const contentData = {
     </div>`,
 
         "facciones-legales": `
-    <h1>LEGAL PS SERRANO</h1>
-    <p class="date">Vigencia desde 03 de Octubre del 2024.</p>
+    <h1>FACCIONES LEGALES DE LATAM VICE</h1>
+    <p class="date">Vigencia desde 08 de Enero del 2025</p>
     <div class="section">
-        <h2>In Character (IC) - Dentro de juego</h2>
-        <p>
-            Se refiere a cualquier comunicación, acción o comportamiento que forma parte de la historia y el rol del personaje en el juego.
-        </p>
+        <h2>FACCIONES LEGALES</h2>
+        <p> Todas las facciones LEGALES, No-Whitelist & Trabajos. </p>
     </div>
+
     <div class="section">
-        <h2>Out of Character (OOC) - Fuera de Rol</h2>
-        <p>
-            Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>.
-        </p>
+        <h2> POLICIA </h2>
+        <h2> EMS </h2>
+        <h2> MECANICA </h2>
+        <h2> PRENSA </h2>
+        <h2> BASURERO </h2>
+        <h2> FRUTERO </h2>
+        <h2> ELECTRICISTA </h2>
+        <h2> JARDINERO </h2>
+
+
     </div>`,
 
     "policia": `
-    <h1>tombo ps kk</h1>
+    <h1>POLICIA NACIONAL DEL PERU</h1>
     <p class="date">Vigencia desde 03 de Octubre del 2024.</p>
+
     <div class="section">
-        <h2>In Character (IC) - Dentro de juego</h2>
-        <p>
-            Se refiere a cualquier comunicación, acción o comportamiento que forma parte de la historia y el rol del personaje en el juego.
-        </p>
+        <h2>CODIGO PENAL PROCESAL </h2>
+        <p>Aquí encontraras todos los articulos e información necesaria de la PNP. </p>
+
     </div>
+
     <div class="section">
-        <h2>Out of Character (OOC) - Fuera de Rol</h2>
-        <p>
-            Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>.
-        </p>
+        <h2>ARTICULO 1</h2>
+            <p> Cada policía, el estado le otorgará su arma reglamentaria , 
+            la distribución de ella misma o perdería sera sancionado con pena privativa, 
+            expulsión de la facción policial (CK). </p>
+        <h2>ARTICULO 2</h2>
+            <p> Respetar el uniforme de la vestimenta policial, así mismo se prohíbe en su totalidad el uso de 
+            máscaras, o cualquier objeto que oculte el rostro, prohibido el cabello teñido y los tatuajes, 
+            se pueden hacer excepciones según su rango y necesidad. </p>
+        <h2>ARTICULO 3</h2>
+            <p> Las patrullas policiales serán utilizadas solo para el patrullaje preventivo , 
+            queda prohibido para su uso personal o servicio. </p>
+        <h2>ARTICULO 4</h2>
+            <p> Están prohibidos los actos de corrupción... de ser detectado y luego de su respectivo proceso judicial(si corresponde), 
+            se procederá la expulsion policial (CK). </p>
+        
+        <h2>ARTICULO 5</h2>
+            <p> Todo Oficial deberá estar en radio y hacer su respectivo saludo de ingreso y salida. </p>
+
+        <h2>ARTICULO 6</h2>
+            <p> La policía siempre valorar la su vida , de los compañeros y de todos los civiles. </p>
+
+        <h2>ARTICULO 7</h2>
+            <p> La Policía solo hará uso de su arma de Fuego si se sienten amenazados con cualquier 
+            objeto que ponga en peligro su vida o la de su compañero. </p>
+
+        <h2>ARTICULO 8</h2>
+            <p> Es el deber del oficial leer los derechos a una persona detenida antes de ingresarlo a comisaría, 
+            de NO haberse cumplido o realizados de mala manera, 
+            pueden solicitar su Habeas Corpus, esto les exonera el tiempo de detención, más no la multa. </p>
+
+        <h2>ARTICULO 9</h2>
+            <p> En una persecución, los policías tienen permitido obstruir con la patrulla a fin de detener al vehículo sospechoso (código 100).
+            Así mismo si omiten los 3 avisos enviados o pongan en peligro la vida de los policías o la de los transeúntes, 
+            es permitido por la policía el uso de la Clave Pit (forzar a un automóvil que huye a girar bruscamente para que el conductor pierda 
+            el control y se detenga) y luego  Robert (Disparar a las llantas). </p>
+
+        <h2>ARTICULO 10</h2>
+            <p> Los oficiales tendrán permitido el cachear los vehículos y propietarios de los mismos 
+            siempre y cuando exista una causa probable o sea sospechoso de haber cometido un delito. </p>
+
+        <h2>ARTICULO 11</h2>
+            <p> En los secuestros no se podrá disparar a los secuestradores hasta que el rehén este fuera de su vista, 
+            queda terminantemente prohibido poner en riesgo la vida de los ciudadanos y compañeros del cuerpo. </p>
+
+        <h2>ARTICULO 12</h2>
+            <p> Todo nuevo integrante nuevo a la policía pasara un periodo de 5 días hábiles de prueba para poder evaluar su desempeño , 
+            en caso no cumpla con las normativas , sera retirado de la facción y con la oportunidad de poder 
+            postular nuevamente en un lapso de una próxima convocatoria. </p>
+
+        <h2>ARTICULO 13</h2>
+            <p> Si un binomio en patrulla (2) acude a algún entorno de: "Robo al paso, Tiroteo, Secuestro, etc" y los delincuentes son (3) 
+            la policía puede pedir un binomio(2) adicional, en caso sean (4) delincuentes, los policías podrán pedir un binomio más. </p>
+            <p> Ejemplo: (2) D - 2 (P) | (3) D - 4(P) | (4) D - (6) P. </p>
+
+        <h2>ARTICULO 14</h2>
+            <p> Toda persona que no proceda a identificarse sera conducida la comisaria con fines de identificación. </p>
+
+        <h2>ARTICULO 15</h2>
+            <p> Si la policía en su patrullaje preventivo , percibe un robo al paso, la policía podrá abrir fuego contra los delincuentes 
+            siempre y cuando el civil este fuera de riesgo o se aleje del lugar, si es necesario se podrá esperar que estos empleen la huida 
+            para comenzar con la persecución; seguido estos seguir lo que corresponda. </p>
+    </div>
+
+    <div class="section">
+        <h1> CONDUCTA DELICTIVA </h1>
+            <p>Categorizaciones de delincuentes segun sus antecedentes policiales</p>
+        
+        <ol>
+        <li> <b>DELINCUENTE PASIVO:</b> Evita el enfrentamiento directo. Prefiere engañar o 
+            provechar descuidos para cometer el delito.</li>
+                <ol> HURTADOR: Roba objetos pequeños como billeteras o celulares sin ser detectado. </ol>
+                <ol> ESTAFADOR: Engaña a las víctimas para obtener dinero o información personal.</ol>
+                <ol> FALSIFICADOR: Crea documentos, billetes o productos falsos sin contacto directo con las víctimas.</ol>
+        <p></p>
+            <li> <b>DELINCUENTE ACTIVO:</b> Enfrenta a sus víctimas directamente y no teme usar amenazas o violencia. </li>
+                <ol> ASALTANTE ARMADO: Entra a un banco y amenaza a los empleados con un arma para robar dinero. </ol>
+                <ol> SECUESTRADOR 1: Usa fuerza física para retener a alguien y exigir un rescate.</ol>
+        <p></p>
+            <li> <b>DELINCUENTE PELIGROSO:</b> Es extremadamente violento, no le importa causar daño físico o incluso matar. </li>
+                <ol> SICARIO: Mata por encargo siguiendo órdenes específicas. </ol>
+                <ol> ASCENSINO EN SERIE: Mata repetidamente por placer o impulsos psicológicos.</ol>
+                <ol> SECUESTRADOR 2: Arrebata la libertad , con fines monetarios o de tortura contra su victima.</ol>
+        <p></p>
+            <li> <b>DELINCUENTE ALTAMENTE PELIGROSO:</b> Con un desprecio total por la vida humana.Suelen ser psicópatas, asesinos 
+            seriales o terroristas. Su violencia puede ser extrema, sádica, etc... </li>
+                <ol> TERRORISTA: Comete actos violentos para generar pánico o enviar mensajes ideológicos. </ol>
+                <ol> NARCOTRAFICANTE: Controla operaciones criminales mediante violencia extrema.</ol>
+                <ol> SECUESTRADOR 2: Arrebata la libertad , con fines monetarios o de tortura contra su victima.</ol>
+                
+        </ol>
+    </div>
+    
+    <div class="section">
+        <h1> SISTEMA DE REQUISITORIAS </h1>
+            <p>Se adaptaran según las categorias de CONDUCTA DELICTIVA</p>
+
+        <ol>
+            <li>DELINCUENTE PASIVO: 1 ~ 9 Antecedentes </li>
+            <li>DELINCUENTE ACTIVO: 10 ~ 19 Antecedentes | RQ </li>
+            <li>DELINCUENTE PELIGROSO: 20 ~ 24 Antecedentes | RQ</li> 
+            <li>DELINCUENTE ALTAMENTE PELIGROSO: 30 Antecedentes | RQ </li>
+            <p> </p>
+            <p><b>EL QUE LLEGUE A LOS 30 ANTECENDENTES (NO SE CONSIDERAN MULTAS COMO ANTECEDENTES) SERA CONSIDERADO 
+            COMO PERSONA ALTAMENTE PELIGROSA, SE LE APLICARA 
+            CADENA PERPETÚA(CK). </b></p>
+            
+        </ol>
+        
+    </div>
+
+    <div class="section">
+        <h1> ESCALA DE COMERCIALIZACION DE DROGAS </h1>
+            <p>Según se te encuentre con las cantidades correspondientes se te asignara un "Título"</p>
+
+        <ol>
+            <li>CONSUMIDOR: 1 ~ 14 Gramos de SUSTANCIAS TOXICAS (Drogas)</li>
+            <li>MICROCOMERCIALIZADOR: 15 ~ 49 Gramos de SUSTANCIAS TOXICAS (Drogas) </li>
+            <li>PROVEEDOR: 50 ~ 499 Gramos de SUSTANCIAS TOXICAS (Drogas) </li> 
+            <li>NARCO: 499 ~ X Gramos de SUSTANCIAS TOXICAS (Drogas) </li>
+            <p> </p>
+            <p><b>De poser a 500 a 1000 gramos se te aplicara un CK , por "Jefe de Organización Criminal".
+            (Apelable por Juicio -IC) </b></p>
+            
+        </ol>
+        
+    </div>
+    
+    <img src="/IMGS/policia.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
+        
     </div>`,
 
     "hospital": `
-    <h1>HOSPITAL DE LATAM VICE</h1>
-    <p class="date">Vigencia desde 08 de Enero del 2025.</p>
+    <h1> HOSPITAL DE LATAM VICE </h1>
+    <p class="date">Vigencia desde 08 de Enero del 2025</p>
         <div class="section">
             <p>La función principal de la facción EMS es garantizar la salud y el bienestar de los ciudadanos de la ciudad. 
              Esto incluye la atención de emergencias médicas, el traslado seguro de pacientes, y la aplicación de tratamientos 
@@ -268,7 +406,7 @@ const contentData = {
             <li><b>Respetar los vehículos y equipos del EMS.</li></b>
             <li><b>No interferir en intervenciones médicas.</li></b>
 
-        <img src="/Latam Vice - Normas/IMGS/hospital.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
+        <img src="/IMGS/hospital.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
             
 
     </div>`,
@@ -305,14 +443,14 @@ const contentData = {
             <li>No puedes quedarte AFK mientras estás en servicio. Si necesitas estar ausente por mucho tiempo, 
             debes avisar por radio y salir del servicio.</li>
 
-        <img src="/Latam Vice - Normas/IMGS/hospital.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
+        <img src="/IMGS/taller.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
 
         </div>
 
     </div>`,
 
     "prensa": `
-    <h1>NORMATIVA REPORTEROS</h1>
+    <h1>NORMATIVA PRENSA</h1>
     <p class="date">Vigencia desde 08 de Enero del 2025.</p>
     <div class="section">
         <h2>Lista de normas</h2>
