@@ -443,7 +443,7 @@ const contentData = {
             <li>No puedes quedarte AFK mientras estás en servicio. Si necesitas estar ausente por mucho tiempo, 
             debes avisar por radio y salir del servicio.</li>
 
-        <img src="/IMGS/taller.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
+        <img src="/IMGS/taller.webp" alt="Taller de mecanica desde afuera" style="width:100%; height:auto; margin-top:20px;">
 
         </div>
 
@@ -479,7 +479,7 @@ const contentData = {
             <li>Este reglamento debe respetarse en todo momento. No cumplir con alguna de las normas puede llevar a anotaciones, 
             sanciones o incluso la expulsión del equipo.</li>
 
-        <img src="/Latam Vice - Normas/IMGS/prensa.webp" alt="Local de Prensa" style="width:100%; height:auto; margin-top:20px;">
+        <img src="/IMGS/prensa.webp" alt="Local de Prensa" style="width:100%; height:auto; margin-top:20px;">
 
   
     </div>`,
