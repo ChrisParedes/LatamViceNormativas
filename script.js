@@ -1,7 +1,15 @@
 const contentData = {
     "informacion": `
-        <h1>Información HOLA MUNDO</h1>
-        <p>Esta sección contiene información general sobre el servidor.</p>
+        <h1>BIENVENIDO A LATAM VICE</h1>
+        <p>¿Alguna vez imaginaste un mundo donde la cultura, las historias y las 
+        emociones de Latinoamérica se mezclan en un solo lugar? Eso es <b>Latam Vice.</b></p>
+        <p>Aquí no solo juegas, sino que formas parte de una comunidad donde cada detalle está inspirado en lo 
+        mejor de nuestra región. Desde barrios llenos de vida hasta trabajos, eventos y aventuras que reflejan 
+        la esencia latina, todo está diseñado para que te sientas como en casa mientras creas tu propia historia.</p>
+        <p>No importa si prefieres ser un empresario exitoso, un rebelde con causa o simplemente alguien buscando nuevas experiencias. 
+        En Latam Vice, siempre hay un lugar para ti.</p>
+
+        <p>¿Listo para comenzar? Este es tu momento. ¡Te esperamos para que formes parte de algo único!</p>
     `,
     "actualizaciones": `
         <h1>Actualizaciones</h1>
@@ -10,7 +18,7 @@ const contentData = {
 
     "normativa-general": `
         <h1>LATAM VICE - NORMATIVA GENERAL</h1>
-        <p class="date">Vigencia desde 08 de Enero del 2025</p>
+        <p class="date">Vigencia desde 17 de Enero del 2025 </p>
         <div class="section">
             <h2>VALORAR VIDA</h2>
                 <p>
@@ -70,7 +78,7 @@ const contentData = {
 
     "conceptos-de-rol": `
     <h1>CONCEPTOS DE ROL</h1>
-    <p class="date">Vigencia desde 08 de Enero del 2025.</p>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
 
     <div class="section">
         <h2>ZONAS SEGURAS</h2>
@@ -130,7 +138,7 @@ const contentData = {
 
     "robos-organizados": `
     <h1>ROBOS ORGANIZADOS A TIENDA, LICORERIA, Y MÁS</h1>
-    <p class="date">Vigencia desde 08 de Enero del 2025.</p>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
 
     <div class="section">
         <h2>ROBOS A TIENDA DON PEPE</h2>
@@ -159,35 +167,32 @@ const contentData = {
 
     "zonas-seguras": `
     <h1>ZONAS SEGURAS</h1>
-    <p class="date">Vigencia desde 08 de Enero del 2025.</p>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
         <h2>ZONAS SEGURAS</h2>
              <p>  TODAS LAS ZONAS SEGURAS DE LATAM VICE mostradas en la lista inferior, los bancos, las peluquerias y todo tipo de tiendas de ropa,
               comida, armería y tatuajes son considerados como Zona Segura solo dentro del edificio, no fuera. Los cajeros, 
               puestos de comida en la calle, ferretería, farmacias y gasolineras son zona segura mientras estén haciendo uso de las mismas.</p>
-                <li> Garaje Central</li>
-                <li> Comisaria de Policia</li>
-                <li> Hospital</li>
-                <li> Taller de mecanica</li>
-                <li> Departamentos</li>
-                <li> Confiscados/Ayuntamiento</li>
-                <li> Centro de Comunicaciones (Reporteros)</li>
-                <li> Concesionario de autos </li>
+                <li> GARAJE CENTRAL</li>
+                <li> COMISARIA DE POLICIA</li>
+                <li> HOSPITAL </li>
+                <li> TALLER DE MECANICA</li>
+                <li> DEPARTAMENTOS </li>
+                <li> CONFISCADOS / AYUNTAMIENTO</li>
+                <li> CANAL DE TELEVISION (PRENSA)</li>
+                <li> CONCESIONARIO DE AUTOS </li>
+                <li> TIENDAS DE ROPA </li>
+                <li> NEGOCIOS </li>
+                <li> IGLESIA </li>
+                
             <p> Tener en cuenta que tambien cuentan unos metros de los alrededores</p>
 
-    </div>
 
-
-    <div class="section">
-        <h2>Out of Character (OOC) - Fuera de Rol</h2>
-        <p>
-            Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>.
-        </p>
     </div>`,
 
         "facciones-legales": `
     <h1>FACCIONES LEGALES DE LATAM VICE</h1>
-    <p class="date">Vigencia desde 08 de Enero del 2025</p>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
         <h2>FACCIONES LEGALES</h2>
         <p> Todas las facciones LEGALES, No-Whitelist & Trabajos. </p>
@@ -208,7 +213,7 @@ const contentData = {
 
     "policia": `
     <h1>POLICIA NACIONAL DEL PERU</h1>
-    <p class="date">Vigencia desde 03 de Octubre del 2024.</p>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
 
     <div class="section">
         <h2>CODIGO PENAL PROCESAL </h2>
@@ -350,7 +355,7 @@ const contentData = {
 
     "hospital": `
     <h1> HOSPITAL DE LATAM VICE </h1>
-    <p class="date">Vigencia desde 08 de Enero del 2025</p>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
         <div class="section">
             <p>La función principal de la facción EMS es garantizar la salud y el bienestar de los ciudadanos de la ciudad. 
              Esto incluye la atención de emergencias médicas, el traslado seguro de pacientes, y la aplicación de tratamientos 
@@ -413,7 +418,7 @@ const contentData = {
 
     "mecanica": `
     <h1>TALLER DE MECANICA DE LATAM VICE</h1>
-    <p class="date">Vigencia desde 08 de Enero del 2025</p>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
         <div class="section">
             <h2>Lista de normas</h2>
             <li>Está completamente prohibido hacer actos ilegales mientras estés en servicio.</li> 
@@ -451,7 +456,7 @@ const contentData = {
 
     "prensa": `
     <h1>NORMATIVA PRENSA</h1>
-    <p class="date">Vigencia desde 08 de Enero del 2025.</p>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
         <h2>Lista de normas</h2>
             <li> Está totalmente prohibido hacer cosas ilegales mientras trabajas como reportero. 
@@ -485,73 +490,120 @@ const contentData = {
     </div>`,
 
     "facciones-ilegales": `
-    <h1>chapa tu choro ctm</h1>
-    <p class="date">Vigencia desde 08 de Enero del 2025 </p>
+    <h1>NORMATIVA ILEGAL</h1>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
-        <h2>In Character (IC) - Dentro de juego</h2>
-        <p> Se refiere a cualquier comunicación, acción o comportamiento que forma parte de la historia y
-         el rol del personaje en el juego. </p>
+        <h2>GENERALES</h2>
+        <li> Las zonas seguras de la ciudad se consideran sitios donde la violencia no es posible 
+        por RDE (rol de entorno) lugares como: garajes, locales, hospitales, comisaría, entre otros. </li>
+        <li> Para realizar roles agresivos que incluyan a otros ciudadanos (no npc) la ciudad deberá 
+        contar con al menos 2 policías y 1 ems en servicio como mínimo para iniciar un rol, 
+        se le permite a la policía superar el número de ilegales por 1 </li>
+        <li> Los abusos de animaciones quedan totalmente prohibidos en roles agresivos, 
+        así como acciones que sean consideradas PG (POWER GAMING).  </li>
+        <li>  En LATAM VICE tomamos en cuenta los roles desde su inicio hasta el final, cualquier rol que incumpla 
+        las normativas de la ciudad, podrá considerarse nulo. </li>
+
     </div>
 
     <div class="section">
-        <h2>Out of Character (OOC) - Fuera de Rol</h2>
-             <p> Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>. </p>
+        <h2>ORGANIZACIONES ILEGALES</h2>
+             <li>  Queda totalmente prohibido realizar una alianza entre facciones. Están permitidas las reuniones, negocios, tratos, misiones, etc. </li>
+             <li> Para entrar a una banda tiene que haber un proceso de reclutamiento. Las bandas contarán con 8 integrantes como máximo, 
+             divididos  con una estructura de rangos y funciones.  </li>
+             <li>  En todos los puntos de farmeo, venta y procesamiento, la casa de facción/barrio y zonas disputadas 
+             se tendrá que respetar la regla de valorar la vida. </li>
+             <li> En caso de que se presente un tiroteo entre facciones ilegales en alguna de las propiedades o puntos ilegales, 
+             el bando ganador podrá llevarse a sus aliados a hospital  </li>
+             <li>  El bando perdedor deberá esperar a que el rol culmine antes de forzar su PKT  con la "E" (que los enemigos se vayan de la zona) </li>
+             <li> EN ZONAS ROJAS, PUNTOS DE FARMEO DE DROGA EL EMS NO ASISTIRA POR EL PELIGRO QUE REPRESENTA. (A MENOS QUE LO TENGAN COMPRADO O TENGAN UN ROL PREVIO,
+             ESTO ES RIESGO DEL EMS, SI SE ANIMA A HACERLO)  </li>
+    </div>
+
+    <div class="section">
+        <h2>DESMANTELACIÓN DE ORGANIZACIONES</h2>
+        <p> Para la desmantelación de una facción ilegal, se deberá realizar una investigación para obtener las siguientes pruebas (IC):  </p>
+        <li> DNI del líder.  </li>
+        <li>  1 o más placas de sus vehículos. </li>
+        <li>  Foto e información de la casa de facción </li>
+        <li>  Fotos de armas G2 y/o G3. </li>
+        <li> Cargamento superior a 15.000 de droga (Se le haya incautado esa cantidado más, en una misma o distintas ocasiones).  </li>
+        <p> Una vez conseguida toda esta información se tendrá que rolear planificación y 
+        presentarla al comisario general. Quien dará o no el permiso de entrar a la casa de facción/barrio para realizar 
+        un allanamiento con disparos sin rol previo para ambos bandos. (Este mismo será anunciado para que ambos bandos 
+        puedan tener su personal activo a la vez).   </p>
+        <p>  Si la policía gana, la facción ilegal será eliminada y los miembros tendrán cadena perpetua (CK), 
+        en caso contrario la facción ilegal tendrá la opción de mudarse y seguir en la ciudad. </p>
+        <p>  Todo rol de investigación debe ser totalmente orgánica para la continuidad de este mismo, dicha información debe ser 
+        SIEMPRE consultada por medio de un ticket y se debe grabar de INICIO A FIN todo el rol </p>
+        <p>  Está rotundamente prohibido cualquier tipo de manipulación de pruebas con la finalidad de tener un reporte y/o investigación favorable. </p>
+
+        <h2> CHARACTER KILL </h2>
+        <li>  En Latam Vice los CK seran manejados por medio de ticket occ en discord o de forma administrativa EXCLUSIVAMENTE (se actualizará más adelante). </li>
+        <li>  Queda totalmente prohibido el forzar CK quemando, ahogando a alguien, etc. </li>
+
+        <p> <b> NOTA: CUALQUIER PRÁCTICA PROHIBIDA SERÁ SEVERAMENTE SANCIONADA, EL USO DE PROGRAMAS EXTERNOS SERÁ BANEADO. </b> </p>
 
     </div>`,
 
     "negocios": `
     <h1>dame mi comida ctm</h1>
-    <p class="date">Vigencia desde 03 de Octubre del 2024.</p>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
-        <h2>In Character (IC) - Dentro de juego</h2>
-        <p>
-            Se refiere a cualquier comunicación, acción o comportamiento que forma parte de la historia y el rol del personaje en el juego.
-        </p>
+        <h2>EN PROGRESO </h2>
+        <p>           </p>
+
     </div>
     <div class="section">
-        <h2>Out of Character (OOC) - Fuera de Rol</h2>
-        <p>
-            Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>.
-        </p>
+        <h2> EN PROGRESO </h2>
+        <p>            </p>
     </div>`,
     
     "sanciones": `
-    <h1>strike ctm</h1>
-    <p class="date">Vigencia desde 03 de Octubre del 2024.</p>
+    <h1>METODOLOGIA DE SANCIONES</h1>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
-        <h2>In Character (IC) - Dentro de juego</h2>
-        <p>
-            Se refiere a cualquier comunicación, acción o comportamiento que forma parte de la historia y el rol del personaje en el juego.
-        </p>
+        <h2> LAS SANCIONES IRAN EN BASE A NORMATIVAS Y ACUMULACIÓN </h2>
+
+        <p>  2 Avisos = 1 Warn + 5 Minutos Federal </p>
+        <p>  2 Warns = 1 Strike + 15 minutos Federal </p>
+        <p>  3 Strikes = Ban de 2h  </p>
+        <p>  5 Strikes = Ban de 1 día  </p>
+        <p>  7 Strikes = Ban de 3 días  </p>
+        <p>  10 Strikes = Ban Permanente  </p>
+
+        <h2> RECORDAR QUE TODAS LAS SANCIONES ESTARÁN EVALUADAS BAJO LA SUPERVICION DE LOS STAFF'S A CARGO, EN CASO
+        CREA QUE ES INJUSTO O NO ESTÉ DE ACUERDO CON LA SANCION DEL STAFF A CARGO, PUEDE SOLICITAR UNA APELACIÓN 
+        CON OTRO STAFF DE MAYOR RANGO</h2>
+
+
     </div>
     <div class="section">
-        <h2>Out of Character (OOC) - Fuera de Rol</h2>
-        <p>
-            Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>.
-        </p>
+        <h2> EN PROGRESO </h2>
+        <p>       </p>
     </div>`,
 
     "vips": `
-    <h1>plata plata</h1>
-    <p class="date">Vigencia desde 03 de Octubre del 2024.</p>
+    <h1>VIPS | AUTOS, MAPEOS & NEGOCIOS</h1>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
-        <h2>In Character (IC) - Dentro de juego</h2>
+        <h2>AUTOS</h2>
         <p>
             Se refiere a cualquier comunicación, acción o comportamiento que forma parte de la historia y el rol del personaje en el juego.
         </p>
     </div>
     <div class="section">
-        <h2>Out of Character (OOC) - Fuera de Rol</h2>
+        <h2>MAPEOS</h2>
         <p>
             Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>.
         </p>
     </div>`,
 
     "dinero-ic": `
-    <h1>chapa pa tu krro</h1>
-    <p class="date">Vigencia desde 03 de Octubre del 2024.</p>
+    <h1> DINERO IC | DINERO IN GAME</h1>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
-        <h2>In Character (IC) - Dentro de juego</h2>
+        <h2>MILES & MILLONES</h2>
         <p>
             Se refiere a cualquier comunicación, acción o comportamiento que forma parte de la historia y el rol del personaje en el juego.
         </p>
@@ -564,51 +616,66 @@ const contentData = {
     </div>`,
 
     "ingreso": `
-    <h1>Entra peladito</h1>
-    <p class="date">Vigencia desde 03 de Octubre del 2024.</p>
+    <h1>¿COMO INGRESAR AL SERVIDOR?</h1>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
-        <h2>In Character (IC) - Dentro de juego</h2>
+        <h2>UNETE AL DISCORD | SI NO TE UNES AL DISCORD NO PODRÁS INGRESAR</h2>
         <p>
             Se refiere a cualquier comunicación, acción o comportamiento que forma parte de la historia y el rol del personaje en el juego.
         </p>
     </div>
     <div class="section">
-        <h2>Out of Character (OOC) - Fuera de Rol</h2>
-        <p>
-            Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>.
-        </p>
+        <h2>INGRESAR A FIVE M | Metodo I | BUSCADOR</h2>
+        <p>  Abres Five M y en el buscador escribes LATAM VICE, le das click y luego entrar.       </p>
+    
+    <div class="section">
+        <h2>INGRESAR A FIVE M | Metodo II | CONNECT (F8)</h2>
+        <p> Abres Five M y presionas "F8", y escribes connect xxxxxxx y le das enter. </p>    
+
     </div>`,
 
     "reporte": `
-    <h1>baneado papu</h1>
-    <p class="date">Vigencia desde 03 de Octubre del 2024.</p>
+    <h1>¿COMO SE GENERAN LOS REPORTES?</h1>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
-        <h2>In Character (IC) - Dentro de juego</h2>
-        <p>
-            Se refiere a cualquier comunicación, acción o comportamiento que forma parte de la historia y el rol del personaje en el juego.
-        </p>
+        <h2>REPORT EN DISCORD</h2>
+        <p>   Los reports en Discord, se generan en el canal de Tickets, pueden ser para dudas, reportes a usuarios, a bandas,
+        donaciones o tickets para ser un streamer de LATAM VICE </p>
     </div>
+
     <div class="section">
-        <h2>Out of Character (OOC) - Fuera de Rol</h2>
-        <p>
-            Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>.
-        </p>
+        <h2>REPORT IN GAME</h2>
+        <p>  Opción 1: Presionas la letra "t", y escribes "/report" (sin comillas), y seleccionas tu caso o rellenas tu caso
+        especifico </p>
+        <p> Opcion 2: Presionas la tecla "F8" y escribes "report" (sin comillas), y seleccionas tu caso o rellenas tu caso
+        especifico </p>
     </div>`,
 
     "staffs": `
-    <h1>STAFFS</h1>
-    <p class="date">Vigencia desde 03 de Octubre del 2024.</p>
-    <div class="section">
-        <h2>In Character (IC) - Dentro de juego</h2>
-        <p>
-            Se refiere a cualquier comunicación, acción o comportamiento que forma parte de la historia y el rol del personaje en el juego.
-        </p>
+    <p class="date">Vigencia desde 17 de Enero del 2025 </p>
+
+    <h1> EQUIPO </h1>
+        <div class="section">
+        <p> El equipo humano que conforma la familia de Latam Vice </p>
+        <h1>OWNERS</h1>
+
+        <h2>   Chris Paredes     </h2>
+        <h2>   Kuro              </h2>
+        <h2>   Arthiem           </h2>
+        <h2>   Joaquin           </h2>
+        <h2>   Maicon            </h2>
+
     </div>
+
     <div class="section">
-        <h2>Out of Character (OOC) - Fuera de Rol</h2>
-        <p>
-            Fuera de rol <span class="highlight">siempre deben tratarse con respeto</span>.
-        </p>
+
+        <h1>STAFFS</h1>
+        <h2>   Bako     </h2>
+        <h2>   Carol     </h2>
+        <h2>   Orraiz     </h2>
+        <h2>   Zorrolu     </h2>
+        <h2>   Cubos     </h2>
+
     </div>`,
 
     // Puedes agregar más contenido aquí para las demás opciones del menú
