@@ -10,6 +10,8 @@ const contentData = {
         En Latam Vice, siempre hay un lugar para ti.</p>
 
         <p>¿Listo para comenzar? Este es tu momento. ¡Te esperamos para que formes parte de algo único!</p>
+        <a href="www.discord.gg/latamvicerp"> UNETE AL DISCORD Y A LA FAMILIA DE LATAM VICE</a>
+        <h2> https://www.discord.gg/latamvicerp </h2>
     `,
     "actualizaciones": `
         <h1>Actualizaciones</h1>
