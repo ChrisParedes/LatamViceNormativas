@@ -548,7 +548,7 @@ const contentData = {
     </div>`,
 
     "negocios": `
-    <h1>dame mi comida ctm</h1>
+    <h1>NORMATIVA DE NEGOCIOS</h1>
     <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
         <h2>EN PROGRESO </h2>
