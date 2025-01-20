@@ -162,7 +162,7 @@ const contentData = {
             <li>REHENES: MAXIMO (3) REHENES REALES (PERSONAS), LOS NPC SIEMPRE CONTARÁ COMO (1), ASI SEAN MÁS.  </li>
             <p>EJEMPLO: (3) NPCS (0) REALES = SOLO VALIDO 1 REHEN | (1) NPC (1) REAL = 2 NEGOCIACIONES  </p>  
     
-        <img src="/IMGS/robos.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
+        <img src="/images/robos.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
 
     </div>`,
 
@@ -191,7 +191,7 @@ const contentData = {
 
     </div>`,
 
-        "facciones-legales": `
+    "facciones-legales": `
     <h1>FACCIONES LEGALES DE LATAM VICE</h1>
     <p class="date">Vigencia desde 17 de Enero del 2025 </p>
     <div class="section">
@@ -350,7 +350,7 @@ const contentData = {
         
     </div>
     
-    <img src="/IMGS/policia.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
+    <img src="/images/policia.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
         
     </div>`,
 
@@ -412,7 +412,7 @@ const contentData = {
             <li><b>Respetar los vehículos y equipos del EMS.</li></b>
             <li><b>No interferir en intervenciones médicas.</li></b>
 
-        <img src="/IMGS/hospital.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
+        <img src="/images/hospital.webp" alt="Recordatorio EMS" style="width:100%; height:auto; margin-top:20px;">
             
 
     </div>`,
@@ -449,7 +449,7 @@ const contentData = {
             <li>No puedes quedarte AFK mientras estás en servicio. Si necesitas estar ausente por mucho tiempo, 
             debes avisar por radio y salir del servicio.</li>
 
-        <img src="/IMGS/taller.webp" alt="Taller de mecanica desde afuera" style="width:100%; height:auto; margin-top:20px;">
+        <img src="/images/taller.webp" alt="Taller de mecanica desde afuera" style="width:100%; height:auto; margin-top:20px;">
 
         </div>
 
@@ -485,7 +485,7 @@ const contentData = {
             <li>Este reglamento debe respetarse en todo momento. No cumplir con alguna de las normas puede llevar a anotaciones, 
             sanciones o incluso la expulsión del equipo.</li>
 
-        <img src="/IMGS/prensa.webp" alt="Local de Prensa" style="width:100%; height:auto; margin-top:20px;">
+        <img src="/images/prensa.webp" alt="Local de Prensa" style="width:100%; height:auto; margin-top:20px;">
 
   
     </div>`,
@@ -559,7 +559,7 @@ const contentData = {
         <h2> EN PROGRESO </h2>
         <p>            </p>
     </div>`,
-    
+
     "sanciones": `
     <h1>METODOLOGIA DE SANCIONES</h1>
     <p class="date">Vigencia desde 17 de Enero del 2025 </p>
@@ -695,7 +695,7 @@ document.querySelectorAll(".menu-item").forEach(item => {
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Manejo del colapso del sidebar
     const sidebar = document.querySelector('.sidebar');
     const collapseBtn = document.createElement('button');
