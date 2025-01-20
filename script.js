@@ -3,14 +3,16 @@ document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.querySelector('.menu-toggle');
     const dynamicContent = document.getElementById('dynamic-content');
 
-    const collapseBtn = document.createElement('button');
-    collapseBtn.className = 'collapse-btn';
-    collapseBtn.innerHTML = '←';
-    document.querySelector('.logo').appendChild(collapseBtn);
+    if (window.innerWidth > 1024) {
+        const collapseBtn = document.createElement('button');
+        collapseBtn.className = 'collapse-btn';
+        collapseBtn.innerHTML = '←';
+        document.querySelector('.logo').appendChild(collapseBtn);
 
-    collapseBtn.addEventListener('click', () => {
-        sidebar.classList.toggle('collapsed');
-    });
+        collapseBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+        });
+    }
 
     menuToggle.addEventListener('click', () => {
         sidebar.classList.toggle('active');
@@ -57,6 +59,23 @@ document.addEventListener('DOMContentLoaded', function () {
         if (window.innerWidth > 1024) {
             sidebar.classList.remove('active');
             menuToggle.classList.remove('active');
+            
+            if (!document.querySelector('.collapse-btn')) {
+                const collapseBtn = document.createElement('button');
+                collapseBtn.className = 'collapse-btn';
+                collapseBtn.innerHTML = '←';
+                document.querySelector('.logo').appendChild(collapseBtn);
+
+                collapseBtn.addEventListener('click', () => {
+                    sidebar.classList.toggle('collapsed');
+                });
+            }
+        } else {
+            const collapseBtn = document.querySelector('.collapse-btn');
+            if (collapseBtn) {
+                collapseBtn.remove();
+            }
+            sidebar.classList.remove('collapsed');
         }
     });
 });

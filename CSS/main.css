@@ -1,3 +1,4 @@
+/* Imports y variables */
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap");
 
 :root {
@@ -11,10 +12,13 @@
   --sidebar-width: 280px;
   --sidebar-collapsed-width: 80px;
   --transition-speed: 0.3s;
+  --z-index-sidebar: 1000;
+  --z-index-toggle: 1001;
+  --z-index-collapse: 999;
 }
 
-body,
-html {
+/* Estilos base */
+body, html {
   margin: 0;
   padding: 0;
   font-family: "Rajdhani", sans-serif;
@@ -22,6 +26,8 @@ html {
   color: var(--text-primary);
   overflow-x: hidden;
 }
+
+/* Sidebar y navegación */
 .sidebar {
   width: var(--sidebar-width);
   height: 100vh;
@@ -32,13 +38,14 @@ html {
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   transition: all var(--transition-speed) ease;
   box-shadow: 4px 0 15px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+  z-index: var(--z-index-sidebar);
 }
 
 .sidebar.collapsed {
   width: var(--sidebar-collapsed-width);
 }
 
+/* Logo y botón de colapso */
 .logo {
   text-align: center;
   margin-bottom: 30px;
@@ -68,22 +75,14 @@ html {
   justify-content: center;
   color: var(--bg-darker);
   transition: transform var(--transition-speed);
-  z-index: 1000;
-}
-@media screen and (max-width: 1024px) {
-  .collapse-btn {
-      display: none; /* Ocultar el botón en pantallas pequeñas */
-  }
-  
-  .sidebar.collapsed {
-      width: var(--sidebar-width); /* Mantener el sidebar expandido en móvil */
-  }
+  z-index: var(--z-index-collapse);
 }
 
 .sidebar.collapsed .collapse-btn {
   transform: rotate(180deg);
 }
 
+/* Estilos de navegación */
 .sidebar h2 {
   font-family: "Orbitron", sans-serif;
   font-size: 16px;
@@ -145,6 +144,7 @@ html {
   max-height: 500px;
 }
 
+/* Contenido principal */
 .content {
   margin-left: var(--sidebar-width);
   padding: 0;
@@ -165,9 +165,10 @@ html {
 .banner img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
+/* Contenido dinámico */
 #dynamic-content {
   padding: 40px;
   max-width: 1200px;
@@ -200,6 +201,7 @@ html {
   margin-bottom: 20px;
 }
 
+/* Efectos y decoraciones */
 .sidebar ul li a::before {
   content: "";
   position: absolute;
@@ -216,6 +218,7 @@ html {
   width: 10px;
 }
 
+/* Scrollbar personalizada */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -233,6 +236,44 @@ html {
   background: var(--secondary-color);
 }
 
+/* Botón de menú móvil */
+.menu-toggle {
+  display: none;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: var(--z-index-toggle);
+  background: var(--primary-color);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: var(--bg-darker);
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Media Queries */
 @media screen and (max-width: 1024px) {
   :root {
     --sidebar-width: 240px;
@@ -259,6 +300,21 @@ html {
   .banner {
     height: 150px;
   }
+
+  .collapse-btn {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .sidebar.collapsed {
+    width: var(--sidebar-width);
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -269,9 +325,6 @@ html {
   .sidebar {
     width: 100%;
     height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
     padding: 15px;
   }
 
@@ -313,52 +366,5 @@ html {
   .sidebar ul li a {
     font-size: 14px;
     padding: 10px;
-  }
-}
-
-.menu-toggle {
-  display: none;
-  position: fixed;
-  top: 15px;
-  right: 15px;
-  z-index: 1001;
-  background: var(--primary-color);
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  padding: 8px;
-}
-
-@media screen and (max-width: 1024px) {
-  .menu-toggle {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-  }
-}
-
-
-  .menu-toggle span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background: var(--bg-darker);
-    border-radius: 3px;
-    transition: all 0.3s;
-  }
-
-  .menu-toggle.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-  }
-
-  .menu-toggle.active span:nth-child(2) {
-    opacity: 0;
-  }
-
-  .menu-toggle.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
   }
 }
